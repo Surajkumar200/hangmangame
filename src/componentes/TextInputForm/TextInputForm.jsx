@@ -8,7 +8,7 @@ function TextInputForm({
   inputType,
 }) {
   return (
-    <form onSubmit={() => handelFormSubmit}>
+    <form onSubmit={handelFormSubmit}>
       <div>
         <TextInput
           type={inputType}
