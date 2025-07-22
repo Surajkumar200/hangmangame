@@ -7,7 +7,8 @@ function HomePage() {
             
             <Link to="/start">start game</Link>
             <br />
-          <Link to="/play">Play game</Link>
+            <Link to="/play">Play game</Link>
+        
         </>
     )
 }
